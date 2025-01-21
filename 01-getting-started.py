@@ -4,7 +4,7 @@ name = "Upendra"
 
 print(name)
 
-print("Hellon " + name)
+print("Hello " + name)
 
 age = 100
 
