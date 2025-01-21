@@ -6,15 +6,13 @@ b = 3
 print(a + b)  # Adds a and b
 print(a * b)  # Multiplies a and b
 print(a / b)  # Divides a by b (result is float)
+print(a / b)  # Divides a by b (result is int)
 print(a % b)  # Finds the remainder
 
 # String concatenation and repetition
 first_name = "Upendra"
 last_name = "Singhai"
-print(first_name + " " + last_name)  # Concatenates strings
-
-
-print("-" * 3)  # Repeats the string 3 times
+print(first_name + last_name)  # Concatenates strings
 
 # Mixing types (with proper conversions)
 age = 100
