@@ -2,7 +2,7 @@
 amt = input("Enter total amount: ")
 
 if amt.isdigit():
-    amt = float(amt)
+    amt = float(amt) 
     disc = 0
 
     if amt > 5000:
@@ -12,11 +12,11 @@ if amt.isdigit():
 
     final = amt - amt * disc
 
-    print("Original Amount", amt)
-    print("Discount Applied", disc*100, "%")
-    print("Due Today", final)
+    print("Original Amount" + str(amt))
+    print("Discount Applied" + str(disc * 100) + "%")
+    print("Due Today" + str(final))
     print("==========================")
-    print("YOU SAVED", amt * disc)
+    print("YOU SAVED" + str(amt * disc))
     print("==========================")
 
 else:
