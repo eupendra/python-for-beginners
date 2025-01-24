@@ -1,8 +1,11 @@
 print("Hello")
 
+
+# Variables are containers to store datatypes
 name = "Upendra"
 
 print(name)
+
 
 print("Hello " + name)
 
