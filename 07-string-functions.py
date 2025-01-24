@@ -5,17 +5,19 @@ sentence = "Python for Technical Writers by Upendra"
 # function
 print()
 
-# method
+# method (limited to an object)
 sentence.upper()
 
 print(sentence.upper())
 
-# original does not change
+# original does not change, Strings are immutable
 print(sentence)
 
-print(sentence.find('T'))  # Also show `in` Operator
+print(sentence.index('P'))  # Also show `in` Operator
 
-print(sentence.replace('Technical', 'All'))
+
+print(sentence.replace('Technical Writers', 'Everyone'))
+
 
 # Strings are immutable
 print(sentence)

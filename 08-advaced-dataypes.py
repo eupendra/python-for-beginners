@@ -13,13 +13,6 @@ person = {
 }
 print(type(person))  # Output: <class 'dict'>
 
-# # Set
-# unique_numbers = {1, 2, 3, 4}
-# print(type(unique_numbers))  # Output: <class 'set'>
-# # Set
-# unique_numbers = {1, 2, 3, 4}
-# print(type(unique_numbers))  # Output: <class 'set'>
-
 # NoneType
 unknown = None
 print(type(unknown))  # Output: <class 'NoneType'>
