@@ -1,5 +1,5 @@
 # Client-Server Model
-![Client Server](Client-server.png) 
+![Client Server](client-server.png) 
 
 
 
