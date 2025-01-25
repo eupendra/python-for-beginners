@@ -1,5 +1,5 @@
 # Client-Server Model
-![Client Server](https://en.wikipedia.org/wiki/Client%E2%80%93server_model#/media/File:Client-server-model.svg) 
+![Client Server](Client-server.png) 
 
 
 
